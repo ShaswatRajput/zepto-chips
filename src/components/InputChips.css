@@ -1,0 +1,18 @@
+*,
+::before,
+::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.tags-input {
+    background: #fff;
+    padding: 0.2em;
+    border: 1px solid #dbdbdb;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 36px;
+    box-sizing: border-box;
+}
