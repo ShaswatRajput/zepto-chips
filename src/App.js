@@ -9,7 +9,6 @@ function App() {
         <li>Press Tab, Enter, Comma to add a tag to the list</li>
         <li>Tags can be suggested either if Name or Email matches</li>
         <li>Press Backspace two times to fully remove a tag from the list</li>
-        <li>Once in the list, same tag won't apper in suggestions anymore</li>
       </ul>
       <h1>Zepto Chips-</h1>
       <InputChips />
