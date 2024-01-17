@@ -98,8 +98,7 @@ const InputChips = () => {
     setPeopleMatched(peopleList);
   };
   const removeTag = (index) =>
-  setTagList((prevTag) => prevTag.filter((tag, i) => i !== index));
-  setHighlightedTag(null);
+    setTagList((prevTag) => prevTag.filter((tag, i) => i !== index));
   return (
     <div className="main-container">
       <div className="tags-inputbox">
